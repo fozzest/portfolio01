@@ -30,6 +30,12 @@ html {
     
 }
 
+a{
+    color:black
+    ; text-decoration:none;
+
+}
+
 
   h1 { 
       font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;color: rgba(43,43,43,.2);
