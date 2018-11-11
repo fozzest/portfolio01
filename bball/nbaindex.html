@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
+
+    <title>Shot Clock</title>
+   <link rel="stylesheet" href="artStyle.css">
+   
+</head>
+
+<body>
+
+    <h1>Mapping Steph 🏀 🔥</h1>
+
+    <img src="i.jpg" alt="Italian Trulli" width="100%" >
+
+    
+
+    <h4>One of the most prolific shooters in NBA history, Stephen Curry of the <br>Golden State Warriors is a showstopper. <br>Making incredible shots like this:<br>
+    </h4>
+    <img src="giphy-1.gif" alt="Italian Trulli" width="75%" >
+    <h4>He leaves fans feeling like this:</h4><br>
+    <img src="tenor.gif" alt="Italian Trulli" width="75%" >
+     <h4>No matter where he is on the court, he's in range of putting the ball through the hoop. <br>
+    One can only hope to imagine where he might launch next...</h4> 
+
+<script>
+
+
+//tensorflow.js example from https://js.tensorflow.org/#getting-started
+
+</script>
+
+
+    <p><b>Using advanced stats from <a href="https://stats.nba.com/player/201939/shots-dash/"> NBA.com</a>, I charted Steph's makes and misses in the 2018-2019 season.
+    <br>Because the data is being pulled from through the stats.nba.com API, it will continue to be updated throughout the season, <br>giving data that becomes increasingly reliable.</b></p>
+
+    <p><b>Data Points closer to the center of the chart represent shots taken closer to the hoop.</b></p>
+
+    <p><b style="color:blue;">MAKES</b><br>
+    <b style="color:red;">MISSES</b></p>
+
+<canvas id="myCanvas" width="750" height="750"
+style="border:1px solid #000000;">
+
+
+
+</canvas>
+
+<p><b>Possible upcoming implementation of tensorflow.js to predict shot selection for remainder of season:<br>
+(if the points are missing, give it a second, as the data model is training...)</b></p>
+
+
+<canvas id="myCanvas02" width="750" height="450"
+style="border:1px solid #000000;">
+
+
+
+</canvas>
+<p><b>This is very WIP. I am currently passing a distance (shot taken) value agaisnt a 2-dimensional synthetic training model<br>
+that includes values between 0 - 90ft.</b></p>
+<p id="tensor">Tensor data</p>
+
+<script>
+
+var c01 = document.getElementById("myCanvas");
+var ctx = c01.getContext("2d");
+ctx.translate(350, 350);
+
+var c02 = document.getElementById("myCanvas02");
+var ctx02 = c02.getContext("2d");
+ctx02.translate(0, 370);
+ctx02.rotate(-90*Math.PI/180);
+
+
+</script>
+
+
+
+<img src="giphy.gif" alt="Italian Trulli" width="75%" >
+
+<p> Raw data can be seen below:</p>
+<p><i>Data reference:<a href="https://stats.nba.com/player/201939/shots-dash/"> NBA.com</a></i></p>
+
+    <ul id="students" style=font-size:"10px">
+        <p>Data Unavaliable<p>
+
+    </ul>
+    
+
+
+    <script src="/script.js"></script>
+
+   
+</body>
+</html>

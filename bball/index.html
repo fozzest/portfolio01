@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+
+    <title>Shot Clock</title>
+   <link rel="stylesheet" href="artStyle.css">
+   
+</head>
+
+<body>
+    <h1>Mapping Steph</h1>
+
+    <h4>One of the most prolific shooters in NBA history, Stephen Curry of the <br>Golden State Warriors is a showstopper. <br>Making incredible shots like this:<br>
+    </h4>
+    <img src="giphy-1.gif" alt="Italian Trulli" width="70%" >
+    <h4>He leaves fans feeling like this:</h4><br>
+    <img src="tenor.gif" alt="Italian Trulli" width="70%" >
+     <h4>No matter where he is on the court, he's in range of putting the ball through the hoop. <br>
+    One can only hope to imagine where he might launch next...</h4> 
+
+        <script>
+      // Notice there is no 'import' statement. 'tf' is available on the index-page
+      // because of the script tag above.
+
+      // Define a model for linear regression.
+      const model = tf.sequential();
+      model.add(tf.layers.dense({units: 1, inputShape: [1]}));
+
+      // Prepare the model for training: Specify the loss and the optimizer.
+      model.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
+
+      // Generate some synthetic data for training.
+      const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
+      const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
+
+      // Train the model using the data.
+      model.fit(xs, ys, {epochs: 10}).then(() => {
+        // Use the model to do inference on a data point the model hasn't seen before:
+        // Open the browser devtools to see the output
+        model.predict(tf.tensor2d([5], [1, 1])).print();
+      });
+    </script>
+
+<canvas id="myCanvas" width="750" height="750"
+style="border:1px solid #000000;">
+
+
+
+</canvas>
+
+
+
+<canvas id="myCanvas02" width="750" height="750"
+style="border:1px solid #000000;">
+
+
+
+</canvas>
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.translate(350, 350);
+
+var c02 = document.getElementById("myCanvas02");
+var ctx02 = c02.getContext("2d");
+ctx02.translate(0, 740);
+ctx02.rotate(-90*Math.PI/180);
+
+
+</script>
+
+
+
+<img src="giphy.gif" alt="Italian Trulli" width="70%" >
+
+<p> Raw data can be seen below:</p>
+<p><i>Data reference:<a href="https://stats.nba.com/player/201939/shots-dash/"> NBA.com</a></i></p>
+
+    <ul id="students" style=font-size:"10px">
+        <p>Data Unavaliable<p>
+
+    </ul>
+
+
+    <script src="/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+</body>
+</html>
