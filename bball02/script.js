@@ -170,7 +170,7 @@ function requestJSON() {
 // }
 
 
-    fetch('/steph.JSON')
+    fetch('steph.JSON')
       .then(response => response.json())
       .then(gotJSON);
     
