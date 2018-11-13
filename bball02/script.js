@@ -1,7 +1,7 @@
 console.log('Hello, Sheet!');
 
 
-
+var ok;
 
 
 // update on dom load
