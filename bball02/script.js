@@ -170,7 +170,7 @@ function requestJSON() {
 // }
 
 
-    fetch('https://github.com/fozzest/portfolio01/blob/master/bball02/steph.JSON')
+    fetch('https://github.com/fozzest/portfolio01/blob/master/bball02/steph.JSON',mode: "no-cors")
       .then(response => response.json())
       .then(gotJSON);
     
