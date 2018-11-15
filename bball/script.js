@@ -20,40 +20,49 @@ var spacer;
 
 
 
-
 function runTensor(val){
     
 
-//tensorflow.js example from https://js.tensorflow.org/#getting-started
-      
-
-      // Define a model for linear regression.
-      const model = tf.sequential();
-      model.add(tf.layers.dense({units: 1, inputShape: [1]}));
-
-      // Prepare the model for training: Specify the loss and the optimizer.
-      model.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
-
-      // Generate some synthetic data for training.
-      const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
-      const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
-
-      // Train the model using the data.
-      model.fit(xs, ys, {epochs: 10}).then(() => {
-        // Use the model to do inference on a data point the model hasn't seen before:
-
-        model.predict(tf.tensor2d([val], [1, 1])).print();
-      });
-
-      const tensorInput = document.getElementById('tensor');
-      tensorInput.innerHTML = '';
-      tensorInput.innerHTML = `<p><b>Shot will be ${model.predict(tf.tensor2d([val], [1, 1]))} ft.</b></p>`;
-     //studentList.appendChild(newLi);
-
-     tf.tensor([1, 2, 3, 4]).print();
-
-    }
-
+    //tensorflow.js example from https://js.tensorflow.org/#getting-started
+          
+    
+          // Define a model for linear regression.
+          const model = tf.sequential();
+          model.add(tf.layers.dense({units: 1, inputShape: [1]}));
+    
+          // Prepare the model for training: Specify the loss and the optimizer.
+          model.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
+    
+          // Generate some synthetic data for training.
+          const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
+          const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
+    
+          // Train the model using the data.
+          model.fit(xs, ys, {epochs: 10}).then(() => {
+            // Use the model to do inference on a data point the model hasn't seen before:
+    
+            model.predict(tf.tensor2d([val], [1, 1])).print();
+          });
+    
+          const tensorInput = document.getElementById('tensor');
+          tensorInput.innerHTML = '';
+          tensorInput.innerHTML = `<p><b>Shot will be ${model.predict(tf.tensor2d([val], [1, 1]))} ft.</b></p>`;
+         //studentList.appendChild(newLi);
+    
+         tf.tensor([1, 2, 3, 4]).print();
+    
+         var canvas02 = document.getElementById("myCanvas02");
+         var ctx02 = canvas02.getContext("2d");
+         //cxt.translate(canvas.width / 2, canvas.height / 2);
+         //ctx02.translate(-1,1);
+         //ctx.scale(10,10);
+         //ctx.scale(0.5,0.5);
+     
+         ctx02.fillStyle = "#f4b042";
+         ctx02.fillRect(model.predict(tf.tensor2d([val], [1, 1])),model.predict(tf.tensor2d([val], [1, 1])),10,10);
+    
+    
+        }
 
 
 // request data from google sheets
