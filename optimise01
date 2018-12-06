@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forrest Whitcomb</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="artStyle.css">
+<title>Page Title</title>
+</head>
+<body> 
+
+
+
+
+        <div class="navBar">
+            <a href="index.html"><h5 class="alignLeft">Forrest Whitcomb .</h5></a>
+            <a href="about.html"><h5 class="alignRight">About Me</h5></a>
+            <h5 class="alignRight bold">More</h5>
+            <a href="index.html"><h5 class="alignRight bold">Work</h5></a>
+        </div>
+
+<img class="titleImage" src="assets/qc.jpg" alt="Optimise Logo">
+
+<div class="artwork fade-in-element">
+    <h1 class="strong"> Quantum Computers: An Emerging Future</h1>
+    <br>
+   <p>   </p>
+   <br>
+    <p><i> What the eye observes is not necessarily the truth. In fact, the idea of truth is a construct created by humans to make the world more easily understood. However, reality is more nuanced; it requires something more detailed than yes and no, or 1s and 0s. Classical computers have limitations in how they represent information to us. With the emergence of Quantum computers, there is soon to be a paradigm shift in how we interact with big data, machine learning, natural phenomena, and communication. What we think of as truth is changing, and it's coming on the backs of a Quantum Computing revolution.
+ </i></p>
+ <br> <br>
+ 
+ <p> </p>
+ <br>
+
+
+
+    <h1 class="strong"> 01: Getting Up To Speed</h1>
+
+
+<p><b><i>An Explanation on Quantum Computers, where they came from, what they are.</i><b></p>
+
+<p>More history here.</p>
+
+<img  src="assets/mindMapQC.png" style="  width: 100%" alt="Map of Tompkins Square park">
+
+<br><br><br>
+
+<h1 class="strong"> 02: Near Future</h1>
+
+<p><b><i>Predicting the future of quantum computing as it enters the mainstream.</i><b></p>
+
+<h3>Optimise: Future Use Case for Quantum Computers</h3>
+    <p> Quantum Computing to harness your social media's potential. </p>
+
+<img  src="assets/optimise.png" style="  width: 100%" alt="Map of Tompkins Square park">
+
+<br> <br>
+
+
+<p><b><i>Imagine quick and accurate recommendations and alterations to make your pics POP on social media. Gather followers, impress your sponsors, and be the best version of yourself.</i><b></p>
+
+<p><i>Optimise</i> is a service that uses Quantum computer servers and mobile interfaces to offer reliable, accurate, and fast image processing and adjustments to make sure your social
+media stays cohesive and contemporary. By providing a range of Optimisations, as well as being able to pull qualities from popular iamges to your own pictures, Optimise dynamically alters your imagery to its greatest potential.
+Using Quantum computation and quantum neural nets from our own quantum computers, Optimise is able to assist classical machine learning and image processing through new quantum alogrithms that behave similarly to the
+Generative Advaserial Networks popularised in the late 2010s. Building off of this, Optimise leverages Quantum Computing's ability to move through big data, meaning Optimise takes the best of the best of social media,
+and gives it to you.</p>
+<br>
+
+</div>
+
+
+
+<div class="artwork">
+
+<iframe width="1120" height="730" src="https://www.youtube.com/embed/mEUxarNiZ1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+<div class="artwork">
+
+    <div class="row01">
+    </div>
+
+    <div class="row02">      
+    </div>
+
+
+</div>
+<div class="artwork">
+
+
+
+
+<h3>Case Study</h3>
+
+<p>Optimise can be setup in preferences to suit desires of needs. In this case study, we look at Sam, a 23 year old Instagram influencer looking to expand his demographic, 
+impress his sponsors, and overall offer a more cohesive aesthetic to his followers. Sam is a creative, and wants to feel like the pictures are his,
+but is open to exploring new ways of expression and gaining more influence. Always on the move, Sam can't afford to have his own Quantum Computer editing suite
+or spend too much time studying emerging trends on Instagram, but he wants to stay current in an era of professional social media.</p>
+<img  src="assets/Artboard 3.png" style=" height: 40%; width: 100%" alt="Map of Tompkins Square park">
+
+
+<h1 class="strong"> Dystopian Futures</h1><br>
+ 
+<p> </p> <br>
+
+
+
+
+<h3>Predicted Outcomes in the face of a Quantum Computer-led Future</h3>
+
+<img  src="assets/timeline01.png" style=" height: 40%; width: 60%" alt="Map of Tompkins Square park">
+<img  src="assets/timeline02.png" style=" height: 50%; width: 100%" alt="Map of Tompkins Square park">
+
+
+<p>When Einstein eloquently illustrated the fundamental aspects that came to be known as Quantum Mechanics, 
+he described a new way of understanding the world around us down to the essence of the way matter and light moved and 
+functioned. In 1927, Neils Bohr and Werner Heisenberg eloquently explained Quantum Mechanics in now the well-known Copenhagen 
+Interpretation. These three men would go on to lead nuclear weapon programs, Heisenberg in Germany, and Born and Einstein on the 
+Manhattan project. When Little Boy detonated over Hiroshima in 1945, 
+the stage was set for new notions of quantum and atoms to control how populations came to power and protected themselves.</p>
+
+<p>	Richard Feynman’s 1959 lecture “There’s Plenty of Room at the Bottom’ declared that in order to properly represent the new universe of quantum physics, quantum computers must be produces. Classical computers made up of bits would not sustain us for long, and one day computers that utilised qubits would rule. </p>
+<p>	Quantum computers began to take shape in the form of algorithms and math in the late 80’s and 90’s. Peter Shor’s Shor algorithm allowed quantum computers to factor exponentially larger numbers than classical computers, allowing quantum computers to easily bypass encryptions.</p>
+<p>In the 2010’s companies such as Google, IBM, NASA, and the now famous D-Wave Systems started to experiment with making quantum computers with increasing numbers of qubits. The implementation of topographical quantum computers in 2020 made them relatively stable, and quit numbers exploded, with the D-Wave Hex with 600 qubits.</p>
+<p>2025 - Optimise brings quantum computers to the masses. Using server farms running on D-Wave QC’s, users are able to mimic popular aesthetics and optimise their photos for the masses. Mass usage of algorithms in media create a singular taste and flavour, with competition between media groups  and individuals culminating in the Optimise shoot-off Flavour, which aggregates a number of resources beyond just Instagram to establish trends and patters, all of which are quickly taken up by media companies. Media becomes a mimicry of itself.</p>
+<p>2026 - University of Washington creates a series’ of proteins to combat a number of illnesses, National Geographic announces that people born post 2020 will be able to live for up to 300 years.</p>
+<p>Governments and Hackers alike develop quantum encryption attacks that result in the 2028 WikiLeaks Hisenburg Leak, resulting in massive social upheaval, and public identity reveals.
+</p>
+<p>December 2028 - the Vit Jul, or White Christmas marches begin in Scandinavia and spread across the globe. People wear white masks to shield their identity, but this is seen retrospectively by many as a representation that Identity was truly lost, and all privacy is equally public.</p>
+<p>In 2029, Elven Technologies reveals their protein pack program, which studies your biology, and product new hormones and proteins that could combat ageing and illness.
+</p>
+<p>As the Western world begins to adopt Elven technologies, population estimates across the world explode, with a predicted 30 billion people by 2040. in 2032, John John John, a new government controlling from unknown locations calls for action, using data from Elven technologies and other algorithms to locate and name individuals who should be culled for population control.</p>
+<p>A technological war ensues, with guerrilla hackers using quantum computers to quickly track and eliminate individuals on what became knows as the ‘Atomic List.’ Nearly 1 billion people across the globe are slaughtered in various ways, before the terrorist organisation Spellbound release ‘Homo Deus’ a flu that was create by scientists using quantum computers. It contains embedded DNA that can quickly assess and mutate in order to adapt to the host, killing them.</p>
+<p>By 2035 50% of the population has been eliminated. However, civil unrest leads to unreliable grid systems, and a large group galvanise around the ‘Civiliastion 0’ movement, calling for an end of centralised algorithms and quantum computers. Civilisation 0 prides itself on lacking widespread usage of electronics, and instead prefers to use traditional, not electric methods of transport, production, and life in general.</p>
+<p><b>The Civilisation 0 Memorial Museum to the Atomic List in Respect to the Vit Jul protestors is a non-profit, decentralised, and non-powered homage to the past 30 years and more of Quantum Computers and their effect on the human race.
+</b></p>
+
+<h3>The Civilisation 0 Memorial Museum to the Atomic List in Respect to the Vit Jul Protestors</h3>
+
+<img  src="assets/mus04.jpeg" style="  height: 40%; width: 100%" alt="Map of Tompkins Square park">
+<p><i>Strand-like structures and woven material represents Quantum entanglement and the quantum mechanics theory of all outcomes being possible until
+observed.</i></p>
+
+<img  src="assets/mus02.jpeg" style="  height: 10%; width: 48%; margin-top: 20px; margin-right: 20px" alt="Map of Tompkins Square park">
+<img  src="assets/mus03.jpeg" style="  height: 10%; width: 48%; margin-top: 20px" alt="Map of Tompkins Square park">
+<img  src="assets/mus05.jpeg" style="  height: 10%; width: 48%; margin-right: 20px ; margin-top: 20px" alt="Map of Tompkins Square park"> 
+<img  src="assets/mus01.jpeg" style="  height: 10%; width: 48% ; margin-top: 20px" alt="Map of Tompkins Square park"> 
+<img  src="assets/RENDER01.png" style="  height: 10%; width: 48%; margin-top: 20px; margin-right: 20px" alt="Map of Tompkins Square park">
+<img  src="assets/RENDER02.png" style="  height: 10%; width: 48%; margin-top: 20px" alt="Map of Tompkins Square park">
+<p><i>Above are Unity Sketches demonstrating the lighting via natural and torch light inside the museum.</i></p>
+
+
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class=" footer ">
+<h1>ok</h1>
+</div>
+
+<script src="/script.js"></script>
+</body>
+
+
+</html>
